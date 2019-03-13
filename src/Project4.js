@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import buybonsaiscreenshot from './images/bonsaitree.jpg'
+import buybonsaiscreenshot from './images/buybonsaiscreenshot.png'
 
 
 export default class Project4 extends Component {
@@ -25,19 +25,19 @@ export default class Project4 extends Component {
   </a>
 </div>
 <p>BuyBonsai is an ecommerce site geared towards ease-of-use and finding that perfect tree! Peruse, add, remove,
-  learn etc. This project is hosted on Surge.<br></br>
+  learn etc. This project is hosted on Surge.<br></br><br></br>
+  <a href="http://buy-bonsai.surge.sh"><img class="largeProjectPic" src={buybonsaiscreenshot}/></a><br></br><br></br>
 
   <div class="features">
-
-  <strong>Features</strong><br></br>
+  <strong>Features</strong>
   <ul>
   <li>Search for a bonsai via category or price</li>
-  <li>Populate and manipulate your category. See your total change in real-time.</li>
+  <li>Populate and manipulate your cart. See your total change in real-time.</li>
   <li>See your most recently viewed items</li>
+  <li>Demonstration of form use and client-side validation</li>
 </ul>
 </div>
 </p>
-<a href="http://buy-bonsai.surge.sh"><img class="projectPic" src={buybonsaiscreenshot}/></a>
 
 </div>
     )

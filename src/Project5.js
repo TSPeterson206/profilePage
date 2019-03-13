@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myrecoveryscreenshot from './images/logo.png'
+import myrecoveryscreenshot from './images/myrecoveryscreenshot.png'
 
 
 export default class Project5 extends Component {
@@ -27,13 +27,13 @@ export default class Project5 extends Component {
 <p>&emsp;MyRecovery is a tool that allows those in recovery from chemical dependency to not only take pride in the time
   that they have achieved...but also set goals and keep themselves on track to accomplish them. What is the best
   way to welch on a personal promise? Tell nobody about it. That is where MyRecovery comes in. This project is
-  hosted on Surge.<br></br>
+  hosted on Surge.<br></br><br></br>
+  <a href="http://myrecovery.surge.sh"><img class="largeProjectPic" src={myrecoveryscreenshot}/></a><br></br><br></br>
 
   <div class="features">
 
   <strong>Features</strong><br></br>
   <ul>
-    <li>Sign in to receive a personal greeting</li>
     <li>Calculate your accrued sober time in days, hours and even minutes!</li>
     <li>Set a goal and enter the contact information for whom you want to keep you accountable. See the remaining
       time left on your goal via the progress bars.</li>
@@ -42,7 +42,6 @@ export default class Project5 extends Component {
   </ul>
 </div>
 </p>
-<a href="http://myrecovery.surge.sh"><img class="projectPic" src={myrecoveryscreenshot}/></a>
 
 </div>
     )
