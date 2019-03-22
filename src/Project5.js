@@ -25,9 +25,7 @@ export default class Project5 extends Component {
   </a>
 </div>
 <p>&emsp;MyRecovery is a tool that allows those in recovery from chemical dependency to not only take pride in the time
-  that they have achieved...but also set goals and keep themselves on track to accomplish them. What is the best
-  way to welch on a personal promise? Tell nobody about it. That is where MyRecovery comes in. This project is
-  hosted on Surge.<br></br><br></br>
+  that they have achieved...but also set goals and keep themselves on track to accomplish them. That is where MyRecovery comes in.<br></br><br></br>
   <a href="http://myrecovery.surge.sh"><img class="largeProjectPic" src={myrecoveryscreenshot}/></a><br></br><br></br>
 
   <div class="features">
