@@ -180,3 +180,8 @@ margin:10px;}
   color:white;
   font-size:35px;
 }
+
+.repos {
+  display: flex;
+  justify-content: space-evenly;
+}
