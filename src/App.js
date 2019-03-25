@@ -45,6 +45,7 @@ class App extends Component {
         <ul className="skillsList">
           <li>JavaScript (ES6)</li>
           <li>React.js</li>
+          <li>React Native</li>
           <li>AWS</li>
           <li>Git (GitHub/BitBucket)</li>
           <li>SQL(PostgreSQL)</li>
