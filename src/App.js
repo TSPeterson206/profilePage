@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="row mainColumns">
       
-        <div className="col-2 aboutColumn">
+        <div className="col-sm-6 col-lg-2 aboutColumn">
           <header className="columnHeader">About</header>
           <p>&emsp;I am a software engineer that specializes in full-stack application development and I reside in the Seattle
           area. Feel to peruse my portfolio and resume, then get ahold of me via any of the links below.</p>
@@ -64,7 +64,7 @@ class App extends Component {
           <li>AWS Cloud Practitioner</li>
         </ul>
         </div>
-          <div className="col-2 resumeColumn">
+          <div className="col-lg-2 col-sm-6 resumeColumn">
           <header className="columnHeader">Resume</header>
           <div id="ButtonBarDivUnit" class="ButtonBarDiv">
           <div id="imagecontainer">
@@ -75,7 +75,7 @@ class App extends Component {
           </div>
           </div>
           </div>
-          <div className="col-4 titleColumn">
+          <div className="col-lg-4 col-sm-12 titleColumn">
           <div className="App">
             <p className="titleName titles">Toby Peterson</p>
             <p className="titleTitle titles">Software Engineer</p>
@@ -87,7 +87,7 @@ class App extends Component {
             {this.state.project === 5 ? <Project5/> : null}
           </div>
           </div>
-          <div className="col-2">
+          <div className="col-lg-2 col-sm-8">
           <header className="columnHeader">Projects</header>
           <div onClick={()=>{this.showProject(1)}} className="project">NextSteps<img class="projectPic" src={nextstepscreenshot} /></div>
           <div onClick={()=>{this.showProject(2)}} className="project">Squeaker<img class="projectPic" src={squeakerscreenshot} /></div>
@@ -95,7 +95,7 @@ class App extends Component {
           <div onClick={()=>{this.showProject(4)}} className="project">BuyBonsai<img class="projectPic" src={buybonsaiscreenshot} /></div>
           <div onClick={()=>{this.showProject(5)}} className="project">MyRecovery<img class="projectPic" src={myrecoveryscreenshot} /></div>
           </div>
-          <div className="col-2 contactColumn">
+          <div className="col-lg-2 col-sm-12 contactColumn">
           <header className="columnHeader">Contact</header>
           <div id="ButtonBarDivUnit" class="ButtonBarDiv">
   <div id="imagecontainer">
