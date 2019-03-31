@@ -35,7 +35,7 @@ export default class Project2 extends Component {
 
   <div class="features">
   <strong>Features</strong><br></br>
-  <ul>
+  <ul className="projectFeaturesList">
     <li>Account creation and login with a unique username.</li>
     <li>Profile customization including profile photo uploads hosted by Cloudinary.</li>
     <li>Create posts using a rich text editor allowing different media types such as images and videos along with

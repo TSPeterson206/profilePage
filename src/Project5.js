@@ -31,7 +31,7 @@ export default class Project5 extends Component {
   <div class="features">
 
   <strong>Features</strong><br></br>
-  <ul>
+  <ul className="projectFeaturesList">
     <li>Calculate your accrued sober time in days, hours and even minutes!</li>
     <li>Set a goal and enter the contact information for whom you want to keep you accountable. See the remaining
       time left on your goal via the progress bars.</li>

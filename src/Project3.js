@@ -30,7 +30,7 @@ export default class Project3 extends Component {
       <div class="features">
 
       <strong>Features</strong><br></br>
-      <ul>
+      <ul className="projectFeaturesList">
         <li>Search the book database via search bar</li>
         <li>Add any book you would like</li>
         <li>Edit any current book</li>
