@@ -1,27 +1,12 @@
 /* For mobile phones: */
-[class*="col-"] {
+/* [class*="col-"] {
   width: 100%;
-}
+} */
 
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (min-width: 600px) { */
-  /* .col-2 {width: 16.66%;}
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-12 {width: 100%;} */
-  /* .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-sm-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-sm-12 {width: 100%;} */
-/* }  */
+
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {
@@ -87,7 +72,7 @@ code {
 
 .titleTitle {
   font-family: "Times New Roman", Times, serif;
-  font-size: 65px;
+  font-size: 45px;
   transition: 0.8s;
 }
 
@@ -129,33 +114,23 @@ code {
   /* height:auto; */
 }
 
-#ButtonBarDivUnit {
-  top: 160px;
-}
-
 .ButtonBarDiv {
   margin-top: 100px;
-  width: 280px;
-  left: 0px;
-  display: table;
-  height: 300px;
-}
-
-.ButtonBarDiv #imagecontainer {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
+  /* width: 280px; */
+  /* height: 300px; */
 }
 
 .ButtonBarDiv img[type=image] {
-  display: table-cell;
+  /* display: table-cell; */
   vertical-align: middle;
   height: 200px;
   margin: 5px auto;
 }
 
-.ButtonBarDiv img:hover {
+.contactImg{
+  margin-top:25px;
+}
+.contactImg:hover {
   opacity: 0.5;
   background-color:white;
   border-radius:25px;
@@ -185,7 +160,10 @@ code {
   /* display:block; */
 }
 .skillsList {
-  /* color:white; */
+  text-align:center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .aboutColumn:hover {
@@ -199,10 +177,14 @@ code {
 
 .projectPic {
   height: 25vh;
+  align-content:center;
+  justify-content:center;
+  margin:0 auto;
+
 }
 
 .project {
-  height: 18vh;
+  /* height: 18vh; */
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   text-align: center;
@@ -221,6 +203,8 @@ code {
 .projectPic {
   height:100px;
   opacity:0;
+  vertical-align: middle;
+
 }
 
 .projectPic:hover{
@@ -249,3 +233,62 @@ margin:10px;}
   display: flex;
   justify-content: space-evenly;
 }
+
+.aboutSection {
+  text-align:center;
+}
+
+.projectsSection{
+  /* align-content:center; */
+  justify-content:center;
+  margin:0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectHeader {
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.projectFeaturesList {
+  /* list-style-type: none; */
+text-align:left;
+}
+
+@media only screen and (min-width: 350px) {
+  .projectPic {
+    opacity:1.0;
+  }
+  .ButtonBarDiv {
+    margin-top: 5px;
+  }
+  .largeProjectPic{
+    height:150px;
+  }
+  .projectFeaturesList {
+    /* list-style-type: none; */
+  text-align:left;
+  }
+} 
+
+@media only screen and (min-width: 1400px) {
+  .projectPic {
+    opacity:0;
+  }
+  .ButtonBarDiv {
+    margin-top: 80%;
+  }
+  .largeProjectPic{
+    height:250px;
+  }
+  .projectFeaturesList {
+    list-style-type: none;
+  text-align:center;
+  }
+} 

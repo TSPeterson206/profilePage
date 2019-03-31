@@ -30,7 +30,7 @@ export default class Project4 extends Component {
 
   <div class="features">
   <strong>Features</strong>
-  <ul>
+  <ul className="projectFeaturesList">
   <li>Search for a bonsai via category or price</li>
   <li>Populate and manipulate your cart. See your total change in real-time.</li>
   <li>See your most recently viewed items</li>
