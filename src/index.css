@@ -1,48 +1,3 @@
-/* For mobile phones: */
-/* [class*="col-"] {
-  width: 100%;
-} */
-
-/* Extra small devices (phones, 600px and down) */
-
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  .col-2 {width: 16.66%;}
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-12 {width: 100%;}
-}  */
-
-/* Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {
-  .col-2 {width: 16.66%;}
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-12 {width: 100%;}
-  .col-sm-12 {width: 50%;}
-
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  .col-2 {width: 16.66%;}
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-12 {width: 100%;}
-}  */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  .col-2 {width: 16.66%;}
-  .col-4 {width: 33.33%;}
-  .col-6 {width: 50%;}
-  .col-12 {width: 100%;}
-} */ */
-
-
 body {
   margin: 0;
   padding: 0;
@@ -110,8 +65,6 @@ code {
   height: 450px;
   background-size: cover;
   margin-top: 50px;
-  /* max-width:100%; */
-  /* height:auto; */
 }
 
 .ButtonBarDiv {
@@ -151,7 +104,7 @@ code {
 
 .resumePic:hover {
   height: 50px;
-  transform: scale(4.0);
+  transform: scale(6.0);
   transition: 1s;
   /* display:block; */
 }
@@ -261,6 +214,10 @@ margin:10px;}
 text-align:left;
 }
 
+.projectsHidden{
+  text-align:center;
+}
+/* phones */
 @media only screen and (min-width: 350px) {
   .projectPic {
     opacity:1.0;
@@ -273,10 +230,66 @@ text-align:left;
   }
   .projectFeaturesList {
     /* list-style-type: none; */
-  text-align:left;
+  text-align:center;
+  padding: 0;
+  margin: 0;
+  }
+  .contactImg {
+    height:75px;
+  }
+  .titleName{
+    font-size:40x;
   }
 } 
 
+/* ipads */
+
+@media only screen and (min-width: 1000px) and (max-width:1399px){
+  .columnHeader{
+    font-size:40px;
+  }
+  .projectsHidden{
+    display:none;
+  }
+  .titleName {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    transition: 1.0s;
+  }
+  .titleTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    transition: 1.0s;
+  }
+  .headshot {
+    height: 325px;
+    background-size: cover;
+    margin-top: 50px;
+  }
+  .projectPic {
+    height:50px;
+    opacity:1;
+    vertical-align: middle;
+  }
+  .skillsList, .aboutSection {
+    /* text-align:center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; */
+    font-size:12px;
+  }
+  .projectFeaturesList {
+    text-align:center;
+    /* list-style-type: none; */
+    padding: 0;
+    margin: 0;
+  }
+  .projectDescription {
+    font-size:12px;
+  }
+}
+
+/* Monitors */
 @media only screen and (min-width: 1400px) {
   .projectPic {
     opacity:0;
@@ -290,5 +303,37 @@ text-align:left;
   .projectFeaturesList {
     list-style-type: none;
   text-align:center;
+  padding: 0;
+    margin: 0;
+  }
+
+  .contactImg {
+    height:200px;
+  }
+  .projectsHidden{
+    display:none;
+  }
+  .columnHeader{
+    font-size:65px;
+  }
+  .titleName {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 90px;
+    transition: 1.0s;
+  }
+  .titleTitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    transition: 1.0s;
+  }
+  .headshot {
+    height: 450px;
+    background-size: cover;
+    margin-top: 50px;
+  }
+  .projectPic {
+    height:100px;
+    opacity:0;
+    vertical-align: middle;
   }
 } 
