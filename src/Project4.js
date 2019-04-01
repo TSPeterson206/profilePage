@@ -24,7 +24,7 @@ export default class Project4 extends Component {
     <p>GitHub Repo</p>
   </a>
 </div>
-<p>BuyBonsai is an ecommerce site geared towards ease-of-use and finding that perfect tree! Peruse, add, remove,
+<p className="projectDescription">BuyBonsai is an ecommerce site geared towards ease-of-use and finding that perfect tree! Peruse, add, remove,
   learn etc. This project is hosted on Surge.<br></br><br></br>
   <a href="http://buy-bonsai.surge.sh"><img class="largeProjectPic" src={buybonsaiscreenshot}/></a><br></br><br></br>
 

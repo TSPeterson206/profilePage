@@ -22,13 +22,13 @@ export default class Project2 extends Component {
 </a>
 <div class="repos">
   <a href="https://github.com/squeaker-g105-q3/squeaker-frontend">
-    <p class="repos">GitHub repo: Front End</p>
+    <p class="repos">GitHub repo: Front</p>
   </a>
   <a href="https://github.com/squeaker-g105-q3/squeaker-backend">
-    <p>GitHub repo: Back End</p>
+    <p>GitHub repo: Back</p>
   </a>
 </div>
-<p>
+<p className="projectDescription">
   &emsp;Squeaker Pets is a fully-responsive social media application for your pets. It is hosted on Heroku and is a full
   CRUD application. Feel free to peruse other profiles and react to their posts.<br></br><br></br>
   <a href="https://squeakerpets.herokuapp.com"><img class="largeProjectPic" src={squeakerscreenshot}/></a><br></br><br></br>

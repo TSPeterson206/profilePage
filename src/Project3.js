@@ -24,7 +24,7 @@ export default class Project3 extends Component {
         <p>GitHub Repo</p>
       </a>
     </div>
-    <p>&emsp;The $5 Bookstore is an early project of demonstrating a basic React CRUD app. Simply browse, add or delete books as your see fit. Enjoy!<br></br><br></br>
+    <p className="projectDescription">&emsp;The $5 Bookstore is an early project of demonstrating a basic React CRUD app. Simply browse, add or delete books as your see fit. Enjoy!<br></br><br></br>
     <a href="https://fivedollarbookstore.herokuapp.com"><img class="largeProjectPic" src={fivedollarscreenshot}/></a><br></br><br></br>
 
       <div class="features">

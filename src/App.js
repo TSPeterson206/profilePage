@@ -39,8 +39,8 @@ class App extends Component {
       <div className="col-lg-4 col-sm-12 titleColumn">
           <div className="App">
             <p className="titleName titles">Toby Peterson</p>
-            <p className="titleTitle titles">Software Engineer</p>
-            {this.state.profilePic ? <img className="headshot" src={headshot} alt="headshot"></img>:null}
+            {/* <p className="titleTitle titles">Software Engineer</p> */}
+            {this.state.profilePic ? <div><p className="titleTitle titles">Software Engineer</p><img className="headshot" src={headshot} alt="headshot"></img></div>:null}
             {this.state.project === 1 ? <Project1/> : null}
             {this.state.project === 2 ? <Project2/> : null}
             {this.state.project === 3 ? <Project3/> : null}
@@ -48,11 +48,11 @@ class App extends Component {
             {this.state.project === 5 ? <Project5/> : null}
           </div>
           </div>
-        <div className="col-sm-6 col-lg-2 aboutColumn">
+        <div className="col-sm-12 col-lg-2 aboutColumn">
           <header className="columnHeader">About</header>
           <p className="aboutSection" >&emsp;I am a software engineer who specializes in full-stack application development and I reside in the Seattle
-          area. Feel to peruse my portfolio and resume, then get ahold of me via any of the links below.</p>
-       <p className="skills">Skills/Technologies/Certs</p>
+          area. Feel to peruse my portfolio and resume, then get ahold of me via any of the provided links.</p>
+       <p className="skills">Skills/Tech/Certs</p>
         <ul className="skillsList">
           <li>JavaScript (ES6)</li>
           <li>React.js + Redux</li>
@@ -71,11 +71,11 @@ class App extends Component {
           <li>Full-Stack Engineering</li>
           <li>Responsive Design</li>
           <li>Restful APIs</li>
-          <li>CompTIA A+</li>
-          <li>AWS Cloud Practitioner</li>
+          <li>Cert: CompTIA A+</li>
+          <li>Cert: AWS Cloud Practitioner</li>
         </ul>
         </div>
-          <div className="col-lg-2 col-sm-6 resumeColumn">
+          <div className="col-lg-2 col-sm-12 resumeColumn">
           <header className="columnHeader">Resume</header>
           <div id="ButtonBarDivUnit" class="ButtonBarDiv">
           <div id="imagecontainer">
@@ -87,8 +87,9 @@ class App extends Component {
           </div>
           </div>
           </div>
-          <div className="col-lg-2 col-sm-8">
+          <div className="col-lg-2 col-sm-12">
           <header className="columnHeader">Projects</header>
+          <p className="projectsHidden">(After selecting, scroll up to see summary/links)</p>
           <div className="projectsSection">
           <a onClick={()=>{this.showProject(1)}} className="project"><p className="projectHeader">NextSteps</p></a>
           <div className="content">
@@ -114,26 +115,22 @@ class App extends Component {
           </div>
           <div className="col-lg-2 col-sm-12 contactColumn">
           <header className="columnHeader">Contact</header>
-  <div>
+          <div className="contactIcons">
 <div className="content">
   <a href="https://github.com/TSPeterson206"><img className="contactImg" type="image" src={gitLogo}
     /></a>
 </div>
-  </div>
-  <div>
   <div className="content">
   <a href="https://www.linkedin.com/in/toby-peterson"><img className="contactImg" type="image" src={linkedLogo}
     /></a>
     </div>
-  </div>
-  <div>
   <div className="content">
   <a href="mailto:tspeterson206@gmail.com"><img className="contactImg" type="image" src={mailLogo}
     /></a>
     </div>
+    </div>
   </div>
         </div>
-      </div>
     );
   }
 }
