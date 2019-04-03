@@ -51,7 +51,7 @@ class App extends Component {
         <div className="col-sm-12 col-lg-2 aboutColumn">
           <header className="columnHeader">About</header>
           <p className="aboutSection" >&emsp;I am a software engineer who specializes in full-stack application development and I reside in the Seattle
-          area. Feel to peruse my portfolio and resume, then get ahold of me via any of the provided links.</p>
+          area. Feel free to peruse my portfolio and resume, then get ahold of me via any of the provided links.</p>
        <p className="skills">Skills/Tech/Certs</p>
         <ul className="skillsList">
           <li>JavaScript (ES6)</li>
@@ -71,6 +71,8 @@ class App extends Component {
           <li>Full-Stack Engineering</li>
           <li>Responsive Design</li>
           <li>Restful APIs</li>
+          <li>TDD</li>
+          <li>Agile</li>
           <li>Cert: CompTIA A+</li>
           <li>Cert: AWS Cloud Practitioner</li>
         </ul>
