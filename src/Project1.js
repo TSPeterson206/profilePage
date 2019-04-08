@@ -29,7 +29,7 @@ export default class Project1 extends Component {
   </a>
 </div>
 <p className="projectDescription">
-  &emsp;So you've decided to seek treatment enter early recovery...but now what?! You have now have a
+  &emsp;So you've decided to seek treatment enter early recovery...but now what?! You now have a
   handle on your sobriety, but what about all the other areas of your life that were negatively impacted?
 
   NextSteps is a hub for those in recovery that are seeking to increase their support network and take a holistic
