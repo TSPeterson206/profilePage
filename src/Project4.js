@@ -16,7 +16,7 @@ export default class Project4 extends Component {
     return (
 <div class="container">
 
-<a href="http://buy-bonsai.surge.sh">
+<a href="http://buyBonsai.surge.sh">
   <h2 class="projectTitle">BuyBonsai</h2>
 </a>
 <div class="repos">
@@ -26,7 +26,7 @@ export default class Project4 extends Component {
 </div>
 <p className="projectDescription">BuyBonsai is an ecommerce site geared towards ease-of-use and finding that perfect tree! Peruse, add, remove,
   learn etc. This project is hosted on Surge.<br></br><br></br>
-  <a href="http://buy-bonsai.surge.sh"><img class="largeProjectPic" src={buybonsaiscreenshot}/></a><br></br><br></br>
+  <a href="http://buyBonsai.surge.sh"><img class="largeProjectPic" src={buybonsaiscreenshot} alt='projectScreenshot'/></a><br></br><br></br>
 
   <div class="features">
   <strong>Features</strong>
