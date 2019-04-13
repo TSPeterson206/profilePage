@@ -38,7 +38,7 @@ export default class Project1 extends Component {
   <div class="features">
   <strong>Features</strong><br></br>
   <ul className="projectFeaturesList">
-  <li>Brose, rate and review providers in six key recovery life areas</li>
+  <li>Browse, rate and review providers in six key recovery life areas</li>
     <li>See your total sober time in days, hours and minutes</li>
     <li>Allow you to add and remove your favorite providers</li>
     <li>Set goals for yourself and track their due dates</li>

@@ -20,7 +20,7 @@ export default class Project4 extends Component {
   <h2 class="projectTitle">BuyBonsai</h2>
 </a>
 <div class="repos">
-  <a href="https://github.com/TSPeterson206/bonsai-ecommerce-site">
+  <a href="https://github.com/TSPeterson206/buyBonsai">
     <p>GitHub Repo</p>
   </a>
 </div>
