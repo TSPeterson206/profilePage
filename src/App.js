@@ -83,7 +83,7 @@ class App extends Component {
           <div id="imagecontainer">
           <div class="content">
           <p className="resumeWrapText">Click</p><br></br>
-          <a href="https://docs.google.com/document/d/1wrH6gtNHXNfw18CzN60gxm0nDQHZsbAIFW-jD-vsabc/edit?usp=sharing"><img className="resumePic" src={resumePic}/></a>
+          <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic}/></a>
           <p className="resumeWrapText">Me!</p>
           </div>
           </div>
