@@ -69,8 +69,6 @@ code {
 
 .ButtonBarDiv {
   margin-top: 100px;
-  /* width: 280px; */
-  /* height: 300px; */
 }
 
 .ButtonBarDiv img[type=image] {
@@ -98,19 +96,15 @@ code {
 
 .resumePic {
   height: 50px;
-  /* display:none; */
-
 }
 
 .resumePic:hover {
   height: 50px;
   transform: scale(6.0);
   transition: 1s;
-  /* display:block; */
 }
 
 .resumeColumn:hover{
-  /* display:block; */
 }
 .skillsList {
   text-align:center;
@@ -137,11 +131,9 @@ code {
 }
 
 .project {
-  /* height: 18vh; */
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   text-align: center;
-  /* display: table-cell; */
   vertical-align: middle;
 
 }
@@ -169,10 +161,6 @@ code {
   height:250px;
 }
 
-.projectTitle{
-  /* color:black; */
-}
-
 .container {
 margin:10px;}
 
@@ -192,7 +180,6 @@ margin:10px;}
 }
 
 .projectsSection{
-  /* align-content:center; */
   justify-content:center;
   margin:0 auto;
 }
@@ -210,7 +197,6 @@ margin:10px;}
 }
 
 .projectFeaturesList {
-  /* list-style-type: none; */
 text-align:left;
 }
 
@@ -229,7 +215,6 @@ text-align:left;
     height:150px;
   }
   .projectFeaturesList {
-    /* list-style-type: none; */
   text-align:center;
   padding: 0;
   margin: 0;
@@ -272,15 +257,10 @@ text-align:left;
     vertical-align: middle;
   }
   .skillsList, .aboutSection {
-    /* text-align:center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0; */
     font-size:12px;
   }
   .projectFeaturesList {
     text-align:center;
-    /* list-style-type: none; */
     padding: 0;
     margin: 0;
   }
