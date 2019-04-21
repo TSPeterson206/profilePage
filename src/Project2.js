@@ -31,7 +31,7 @@ export default class Project2 extends Component {
 <p className="projectDescription">
   &emsp;Squeaker Pets is a fully-responsive social media application for your pets. It is hosted on Heroku and is a full
   CRUD application. Feel free to peruse other profiles and react to their posts.<br></br><br></br>
-  <a href="https://squeakerpets.herokuapp.com"><img class="largeProjectPic" src={squeakerscreenshot}/></a><br></br><br></br>
+  <a href="https://squeakerpets.herokuapp.com"><img alt={'largeProjectPic'} class="largeProjectPic" src={squeakerscreenshot}/></a><br></br><br></br>
 
   <div class="features">
   <strong>Features</strong><br></br>

@@ -34,7 +34,7 @@ export default class Project1 extends Component {
 
   NextSteps is a hub for those in recovery that are seeking to increase their support network and take a holistic
   approach towards getting stable and rounding out your healing. It is a yelp-like to access, rate and review treatment providers.<br></br><br></br>
-  <a href="https://nextstepsapp.herokuapp.com"><img class="largeProjectPic" src={nextstepscreenshot}/></a><br></br><br></br>
+  <a href="https://nextstepsapp.herokuapp.com"><img alt={'largeProjectPic'} class="largeProjectPic" src={nextstepscreenshot}/></a><br></br><br></br>
   <div class="features">
   <strong>Features</strong><br></br>
   <ul className="projectFeaturesList">
