@@ -26,7 +26,7 @@ export default class Project5 extends Component {
 </div>
 <p className="projectDescription">&emsp;MyRecovery is a tool that allows those in recovery from chemical dependency to not only take pride in the time
   that they have achieved...but also set goals and keep themselves on track to accomplish them. That is where MyRecovery comes in.<br></br><br></br>
-  <a href="http://myrecovery.surge.sh"><img class="largeProjectPic" src={myrecoveryscreenshot}/></a><br></br><br></br>
+  <a href="http://myrecovery.surge.sh"><img alt={'largeProjectPic'} class="largeProjectPic" src={myrecoveryscreenshot}/></a><br></br><br></br>
 
   <div class="features">
 
