@@ -79,9 +79,9 @@ class App extends Component {
         </div>
           <div className="col-lg-2 col-sm-12 resumeColumn">
           <header className="columnHeader">Resume</header>
-          <div id="ButtonBarDivUnit" class="ButtonBarDiv">
+          <div id="ButtonBarDivUnit" className="ButtonBarDiv">
           <div id="imagecontainer">
-          <div class="content">
+          <div className="content">
           <p className="resumeWrapText">Click</p><br></br>
           <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic}/></a>
           <p className="resumeWrapText">Me!</p>
@@ -95,23 +95,23 @@ class App extends Component {
           <div className="projectsSection">
           <a onClick={()=>{this.showProject(1)}} className="project"><p className="projectHeader">NextSteps</p></a>
           <div className="content">
-          <a onClick={()=>{this.showProject(1)}} className="project"><img class="projectPic project" src={nextstepscreenshot} /></a>
+          <a onClick={()=>{this.showProject(1)}} className="project"><img className="projectPic project" src={nextstepscreenshot} /></a>
           </div>
           <a onClick={()=>{this.showProject(2)}} className="project"><p className="projectHeader">Squeaker</p></a>
           <div className="content">
-          <a onClick={()=>{this.showProject(2)}} className="project"><img class="projectPic project" src={squeakerscreenshot} /></a>
+          <a onClick={()=>{this.showProject(2)}} className="project"><img className="projectPic project" src={squeakerscreenshot} /></a>
           </div>
           <a onClick={()=>{this.showProject(3)}} className="project"><p className="projectHeader">$5 Bookstore</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(3)}} className="project"><img class="projectPic project" src={fivedollarscreenshot} /></div>
+          <div onClick={()=>{this.showProject(3)}} className="project"><img className="projectPic project" src={fivedollarscreenshot} /></div>
           </div>
           <a onClick={()=>{this.showProject(4)}} className="project"><p className="projectHeader">BuyBonsai</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(4)}} className="project"><img class="projectPic project" src={buybonsaiscreenshot} /></div>
+          <div onClick={()=>{this.showProject(4)}} className="project"><img className="projectPic project" src={buybonsaiscreenshot} /></div>
           </div>
           <a onClick={()=>{this.showProject(5)}} className="project"><p className="projectHeader">MyRecovery</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(5)}} className="project"><img class="projectPic project" src={myrecoveryscreenshot} /></div>
+          <div onClick={()=>{this.showProject(5)}} className="project"><img className="projectPic project" src={myrecoveryscreenshot} /></div>
           </div>
           </div>
           </div>
