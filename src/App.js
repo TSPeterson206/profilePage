@@ -39,7 +39,6 @@ class App extends Component {
       <div className="col-lg-4 col-sm-12 titleColumn">
           <div className="App">
             <p className="titleName titles">Toby Peterson</p>
-            {/* <p className="titleTitle titles">Software Engineer</p> */}
             {this.state.profilePic ? <div><p className="titleTitle titles">Software Engineer</p><img className="headshot" src={headshot} alt="headshot"></img></div>:null}
             {this.state.project === 1 ? <Project1/> : null}
             {this.state.project === 2 ? <Project2/> : null}
@@ -83,7 +82,7 @@ class App extends Component {
           <div id="imagecontainer">
           <div className="content">
           <p className="resumeWrapText">Click</p><br></br>
-          <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic}/></a>
+          <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic} alt="resumePic"/></a>
           <p className="resumeWrapText">Me!</p>
           </div>
           </div>
@@ -95,23 +94,23 @@ class App extends Component {
           <div className="projectsSection">
           <a onClick={()=>{this.showProject(1)}} className="project"><p className="projectHeader">NextSteps</p></a>
           <div className="content">
-          <a onClick={()=>{this.showProject(1)}} className="project"><img className="projectPic project" src={nextstepscreenshot} /></a>
+          <a onClick={()=>{this.showProject(1)}} className="project"><img className="projectPic project" src={nextstepscreenshot} alt="projectPic"/></a>
           </div>
           <a onClick={()=>{this.showProject(2)}} className="project"><p className="projectHeader">Squeaker</p></a>
           <div className="content">
-          <a onClick={()=>{this.showProject(2)}} className="project"><img className="projectPic project" src={squeakerscreenshot} /></a>
+          <a onClick={()=>{this.showProject(2)}} className="project"><img className="projectPic project" src={squeakerscreenshot} alt="projectPic" /></a>
           </div>
           <a onClick={()=>{this.showProject(3)}} className="project"><p className="projectHeader">$5 Bookstore</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(3)}} className="project"><img className="projectPic project" src={fivedollarscreenshot} /></div>
+          <div onClick={()=>{this.showProject(3)}} className="project"><img className="projectPic project" src={fivedollarscreenshot} alt="projectPic" /></div>
           </div>
           <a onClick={()=>{this.showProject(4)}} className="project"><p className="projectHeader">BuyBonsai</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(4)}} className="project"><img className="projectPic project" src={buybonsaiscreenshot} /></div>
+          <div onClick={()=>{this.showProject(4)}} className="project"><img className="projectPic project" src={buybonsaiscreenshot} alt="projectPic" /></div>
           </div>
           <a onClick={()=>{this.showProject(5)}} className="project"><p className="projectHeader">MyRecovery</p></a>
           <div className="content">
-          <div onClick={()=>{this.showProject(5)}} className="project"><img className="projectPic project" src={myrecoveryscreenshot} /></div>
+          <div onClick={()=>{this.showProject(5)}} className="project"><img className="projectPic project" src={myrecoveryscreenshot} alt="projectPic" /></div>
           </div>
           </div>
           </div>
@@ -119,15 +118,15 @@ class App extends Component {
           <header className="columnHeader">Contact</header>
           <div className="contactIcons">
 <div className="content">
-  <a href="https://github.com/TSPeterson206"><img className="contactImg" type="image" src={gitLogo}
+  <a href="https://github.com/TSPeterson206"><img className="contactImg" type="image" alt="contactIconImage" src={gitLogo}
     /></a>
 </div>
   <div className="content">
-  <a href="https://www.linkedin.com/in/toby-peterson"><img className="contactImg" type="image" src={linkedLogo}
+  <a href="https://www.linkedin.com/in/toby-peterson"><img className="contactImg" type="image" alt="contactIconImage" src={linkedLogo}
     /></a>
     </div>
   <div className="content">
-  <a href="mailto:tspeterson206@gmail.com"><img className="contactImg" type="image" src={mailLogo}
+  <a href="mailto:tspeterson206@gmail.com"><img className="contactImg" type="image" alt="contactIconImage" src={mailLogo}
     /></a>
     </div>
     </div>
