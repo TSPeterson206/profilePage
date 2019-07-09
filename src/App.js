@@ -49,9 +49,34 @@ class App extends Component {
           </div>
         <div className="col-sm-12 col-lg-2 aboutColumn">
           <header className="columnHeader">About</header>
-          <p className="aboutSection" >&emsp;I am a software engineer who specializes in full-stack application development and I reside in the Seattle
-          area. Feel free to peruse my portfolio and resume, then get ahold of me via any of the provided links.</p>
-       <p className="skills">Skills/Tech/Certs</p>
+          <p className="aboutSection" >&emsp;
+          <ul>
+         <li>I am a software engineer who specializes in full-stack web development and I reside in the Seattle
+          area</li>
+          <li> I love figuring out how things work. I am a lifelong learner to the core</li>
+          <li> I can carry on excessively long conversations about 90s music, upon request</li>
+          <li> I am tall and can reach things in high places. I am willing to do this for you</li>
+          <li> I have permanently memorized the 12 things that an Eagle Scout is and can recite on command</li>
+          <li> I can add value to the office environment via workplace-appropriate movie quotes</li>
+          <li> I am ranked in the top 2.5% honor percentile on codewars.com</li>
+          <li> I value work ethic, perserverance, teamwork and positivity above all else</li>
+          <li> I thoroughly enjoy cooking</li>
+          <li> I live to code, debug, build, modify, overhaul, learn and collaborate</li>
+          </ul>
+          </p>
+       
+        </div>
+          <div className="col-lg-2 col-sm-12 resumeColumn">
+          <header className="columnHeader">Resume</header>
+          <div id="ButtonBarDivUnit" className="ButtonBarDiv">
+          <div id="imagecontainer">
+          <div className="content">
+          <p className="resumeWrapText">Click</p><br></br>
+          <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic} alt="resumePic"/></a>
+          <p className="resumeWrapText">Me!</p>
+          </div>
+          </div>
+          <p className="skills">Skills/Tech/Certs</p>
         <ul className="skillsList">
           <li>JavaScript (ES6)</li>
           <li>React.js + Redux</li>
@@ -75,17 +100,6 @@ class App extends Component {
           <li>Cert: CompTIA A+</li>
           <li>Cert: AWS Cloud Practitioner</li>
         </ul>
-        </div>
-          <div className="col-lg-2 col-sm-12 resumeColumn">
-          <header className="columnHeader">Resume</header>
-          <div id="ButtonBarDivUnit" className="ButtonBarDiv">
-          <div id="imagecontainer">
-          <div className="content">
-          <p className="resumeWrapText">Click</p><br></br>
-          <a href="https://docs.google.com/document/d/1YlX9Y6FPrwSppSuIG-GX5yksfBAXQivBcSrmyVQGRQs/edit?usp=sharing"><img className="resumePic" src={resumePic} alt="resumePic"/></a>
-          <p className="resumeWrapText">Me!</p>
-          </div>
-          </div>
           </div>
           </div>
           <div className="col-lg-2 col-sm-12">
