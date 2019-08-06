@@ -58,7 +58,7 @@ class App extends Component {
           <li> I am tall and can reach things in high places. I am willing to do this for you</li>
           <li> I have permanently memorized the 12 things that an Eagle Scout is and can recite on command</li>
           <li> I can add value to the office environment via workplace-appropriate movie quotes</li>
-          <li> I am ranked in the top 2.5% honor percentile on codewars.com</li>
+          <li> I am ranked in the top 2% honor percentile on codewars.com</li>
           <li> I value work ethic, perserverance, teamwork and positivity above all else</li>
           <li> I thoroughly enjoy cooking</li>
           <li> I live to code, debug, build, modify, overhaul, learn and collaborate</li>
@@ -132,15 +132,15 @@ class App extends Component {
           <header className="columnHeader">Contact</header>
           <div className="contactIcons">
 <div className="content">
-  <a href="https://github.com/TSPeterson206"><img className="contactImg" type="image" alt="contactIconImage" src={gitLogo}
+  <a href="https://github.com/TSPeterson206" target="Toby's GitHub"><img className="contactImg" type="image" alt="contactIconImage" src={gitLogo}
     /></a>
 </div>
   <div className="content">
-  <a href="https://www.linkedin.com/in/toby-peterson"><img className="contactImg" type="image" alt="contactIconImage" src={linkedLogo}
+  <a href="https://www.linkedin.com/in/toby-peterson" target="Toby's LinkedIn"><img className="contactImg" type="image" alt="contactIconImage" src={linkedLogo}
     /></a>
     </div>
   <div className="content">
-  <a href="mailto:tspeterson206@gmail.com"><img className="contactImg" type="image" alt="contactIconImage" src={mailLogo}
+  <a href="mailto:tspeterson206@gmail.com" ><img className="contactImg" type="image" alt="contactIconImage" src={mailLogo}
     /></a>
     </div>
     </div>
